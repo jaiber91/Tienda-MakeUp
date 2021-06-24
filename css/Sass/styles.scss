@@ -1,0 +1,17 @@
+
+@import "variables";
+@import "nav";
+@import "home";
+@import "footer";
+@import "rubores";
+@import "delineadores";
+@import "sombras";
+@import "labiales";
+@import "esmaltes";
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: $colorbg;
+}

@@ -1,0 +1,34 @@
+@import "variables";
+.navegation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:$principalColor;
+    height: 125px; ;
+    width: $widht; ;
+}
+.navegation-logo img{
+    height: 128px;
+    margin-left: 50px;
+}
+.navegation ul{
+    display: flex;
+    margin-left: 10%;
+}
+.navegation ul li{
+    list-style: none;
+    text-decoration: none;
+    margin-left: 25px;
+        
+}
+
+.navegation ul li a{
+   text-decoration: none;
+   font-family: $fonts;
+   color: $colorText1;
+   font-size: $fontSize;
+   
+}
+.navegation-car img{
+margin-right: 37px;
+}

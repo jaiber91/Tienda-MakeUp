@@ -1,0 +1,84 @@
+@import "variables";
+
+.carrousel{
+    width: $widht;
+}
+.carrousel-img img{
+    display: flex;
+    justify-content: center;
+    margin: 25px auto 0;
+    width: $carrouselWidth;
+    height: $carrouselHeight;
+
+   
+}
+.masVendido{
+    width: $widht;
+
+        
+}
+.masVendido h2{
+    font-size: $titleSize;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+     
+}
+
+.masVendido-img{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: 0 90px 0 100px;
+    grid-gap: 50px 121px;
+   
+     .masVendido-img--details img{
+         display: flex;
+         flex-direction: column;
+          
+     }
+     .masVendido-img--details span{
+        display: flex;
+        justify-content: center;
+        font-size: $fontSize;
+    }
+   
+}
+.masVendido-img img{
+    width: $cardWidth;
+    height: $cardHeight;
+}
+
+
+
+.novedades{
+    width: $widht;
+    margin-top: $topNovedades;
+    margin-bottom: $thirtySize;
+}
+.novedades h2{
+    font-size: $titleSize;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+     
+}
+.novedades-img{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: 0 90px 0 100px;
+    grid-gap: 50px 121px;
+    
+    .novedades-img--details img{
+        display: flex;
+        flex-direction: column;
+    }
+    .novedades-img--details span{
+        display: flex;
+        justify-content: center;
+        font-size: $fontSize;
+    }
+}
+.novedades-img img{
+    width: $cardWidth;
+    height: $cardHeight;
+}

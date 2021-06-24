@@ -1,0 +1,63 @@
+@import "variables";
+
+.esmaltes{
+    width: $widht;
+    margin-bottom: $thirtySize;
+    
+    .esmaltes-firstBlock{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        margin: 0 50px 0 50px;
+        grid-gap: 50px 134px
+    }
+   
+
+}
+
+.esmaltes h2{
+    font-size: $titleSize;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+}
+
+.esmaltes-firstBlock--details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 200px;   
+    cursor: pointer;
+        
+}
+.esmaltes-firstBlock--details img {
+    width: $cardWidth;
+    height: $cardHeight;
+}
+.esmaltes-firstBlock--details span{
+    display: flex;
+    justify-content: center;
+    font-size: $eighteen;
+}
+.esmaltes-firstBlock--details a{
+    font-size: $fontSize;
+    display: flex;
+    justify-content: center;
+    margin: 15px 0px 0px 37px;
+    text-decoration: none;
+    color: $colorText1;
+    width: 150px;
+    padding: $tenSize;
+    background-color: $btnColor;
+    border-radius: $tenSize;
+    border: $threeSize $btnColor;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))
+}
+.esmaltes-firstBlock--details a img{
+    width: 42px;
+    height: 37px;
+    margin-right: $twentySize
+}
+.esmaltes-second{
+    margin-top: $onehundredSize;
+
+}
