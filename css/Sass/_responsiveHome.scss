@@ -1,0 +1,437 @@
+
+  @media screen and (max-width: 1024px) {
+    
+    .carrousel {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+    }
+   
+    .carrousel .carrousel-img img {
+      width: 900px;
+    
+      height: 400px;
+    }
+    .masVendido {
+      display: flex;
+      flex-direction: column;
+      margin-left: 40px;
+    }
+    .masVendido h2 {
+      font-size: 30px;
+      
+    }
+  
+    .masVendido-img {
+      display: grid;
+      grid-template-columns: auto auto;
+      grid-gap: 43px 78px;
+     
+    }
+    .masVendido-img--details img {
+      width: 50%;
+      height: 56%;
+    }
+    .masVendido-img .masVendido-img--details span {
+      font-size: 20px;
+      margin-right: 90px;
+    }
+  
+    .novedades {
+      display: flex;
+      flex-direction: column;
+      margin-top: 30px;
+    }
+    .novedades h2{
+      font-size: 30px;
+      
+    }
+  
+    .novedades-img {
+      display: grid;
+      grid-template-columns: auto auto;
+      grid-gap: 43px 78px;
+      
+    }
+    .novedades-img .novedades-img--details img {
+      width: 50%;
+      height: 56%;
+    }
+    .novedades-img .novedades-img--details span{
+      font-size: 20px;
+      margin-right: 90px;
+    }
+  
+   /*RUBORES*/
+    .rubores .rubores-firstBlock {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-gap: 49px 100px;
+
+   }
+
+   /*DELINEADORES*/
+   .delineadores .delineadores-firstBlock{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 49px 100px;
+   }
+   /*SOMBRAS*/
+   .sombras .sombras-firstBlock{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 50px 93px;
+}
+
+/*LABIALES*/
+.labiales .labiales-firstBlock{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 50px 93px;
+}
+
+/*ESMALTES*/
+.esmaltes .esmaltes-firstBlock{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 50px 93px;
+}
+
+
+  
+  }
+  
+  @media screen and (max-width: 768px) {
+    
+    .carrousel {
+      display: flex;
+      justify-content: center;
+      width: 131%;
+    }
+    .masVendido {
+      display: flex;
+      flex-direction: column;
+      width: 131%;
+    }
+    .novedades {
+      display: flex;
+      flex-direction: column;
+      width: 131%;
+    }
+
+    /*RUBORES*/
+    .rubores .rubores-firstBlock {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 49px 100px;
+
+   }
+
+   /*DELINEADORES*/
+   .delineadores .delineadores-firstBlock{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 49px 100px;
+   }
+
+   /*SOMBRAS*/
+   .sombras .sombras-firstBlock{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 49px 100px;
+   }
+
+   /*LABIALES*/
+   .labiales .labiales-firstBlock{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 49px 100px;
+   }
+   /*ESMALTES*/
+   .esmaltes .esmaltes-firstBlock{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 49px 100px;
+   }
+
+    
+    
+  }
+  
+  @media screen and (max-width: 480px) {
+     .carrousel{
+        width: 100%;
+     } 
+    .carrousel .carrousel-img img{
+        width: 430px;
+        height: 250px;
+    }
+    .masVendido{
+        width: 90%;
+    }
+    .masVendido-img{
+        margin: 0px 0px 0 40px;
+    }
+    .masVendido-img .masVendido-img--details span {
+        font-size: 13px;
+        margin-right: 40px;
+  }
+  .novedades{
+      width: 100%;
+  }
+  .novedades-img{
+    margin: 0px 0px 0 40px;
+  }
+  .novedades-img .novedades-img--details span{
+    font-size: 13px;
+    margin-right: 40px;
+  }
+
+  /*RUBORES*/
+  .rubores .rubores-firstBlock {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 49px 11px;
+
+    }
+    .rubores-firstBlock--details{
+        margin-bottom: 90px;
+    }
+.rubores-firstBlock--details img {
+    width: 140px;
+    height: 130px;
+    }
+    .rubores-firstBlock--details span{
+        font-size: 14px;
+    }
+    .rubores-firstBlock--details a{
+        font-size: 20px;
+        width: 130px;
+        padding: 7px;
+        margin: 5px 0px 0px 18px;
+    }
+
+    /*DELINEADORES*/
+    .delineadores .delineadores-firstBlock{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 49px 11px;
+       }
+    .delineadores-firstBlock--details{
+        margin-bottom: 90px;
+    }
+
+    .delineadores-firstBlock--details img{
+        margin-left: 17px;
+        width: 140px;
+        height: 130px;
+    }
+    .delineadores-firstBlock--details span{
+        font-size: 14px;
+    }
+    .delineadores-firstBlock--details a{
+        margin: 5px 0px 0px 18px;
+        font-size: 20px;
+        width: 130px;
+        padding: 7px;
+    }
+
+    /*SOMBRAS*/
+    .sombras .sombras-firstBlock{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 49px 11px;
+       }
+       .sombras-firstBlock--details{
+        margin-bottom: 90px;
+    }
+
+    .sombras-firstBlock--details img{
+        margin-left: 17px;
+        width: 140px;
+        height: 130px;
+    }
+    .sombras-firstBlock--details span{
+        font-size: 14px;
+    }
+    .sombras-firstBlock--details a{
+        margin: 5px 0px 0px 18px;
+        font-size: 20px;
+        width: 130px;
+        padding: 7px;
+    }
+
+    /*LABIALES*/
+    .labiales .labiales-firstBlock{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 49px 11px;
+       }
+       .labiales-firstBlock--details{
+        margin-bottom: 90px;
+    }
+
+    .labiales-firstBlock--details img{
+        margin-left: 17px;
+        width: 140px;
+        height: 130px;
+    }
+    .labiales-firstBlock--details span{
+        font-size: 14px;
+    }
+    .labiales-firstBlock--details a{
+        margin: 5px 0px 0px 18px;
+        font-size: 20px;
+        width: 130px;
+        padding: 7px;
+    }
+
+    /*ESMALTES*/
+    .esmaltes .esmaltes-firstBlock{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 49px 11px;
+       }
+       .esmaltes-firstBlock--details{
+        margin-bottom: 90px;
+    }
+
+    .esmaltes-firstBlock--details img{
+        margin-left: 17px;
+        width: 140px;
+        height: 130px;
+    }
+    .esmaltes-firstBlock--details span{
+        font-size: 14px;
+    }
+    .esmaltes-firstBlock--details a{
+        margin: 5px 0px 0px 18px;
+        font-size: 20px;
+        width: 130px;
+        padding: 7px;
+    }
+
+
+}
+
+
+  @media screen and (max-width: 320px) {
+    .carrousel{
+        width: 100%;
+    }
+    .carrousel .carrousel-img img {
+        width: 280px;
+        height: 150px;
+    }
+    .masVendido {
+        width: 74%;
+  }
+    .masVendido h2{
+        font-size: 20px;
+    }
+    .masVendido-img{
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 43px 78px;
+    }
+    .masVendido-img {
+        margin: 0px 0px 0 70px;
+    }
+    .masVendido-img {
+    margin: 0px 0px 0 70px;
+    }
+    .masVendido-img--details span{
+        font-size: 15px;
+    }
+    .novedades{
+        width: 94%;
+    }
+    .novedades h2{
+        font-size: 20px;
+    }
+    .novedades-img--details{
+        margin-left: 36px;
+    }
+    .novedades-img{
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 43px 78px;
+    }
+    .novedades-img {
+        margin: 0px 0px 0 70px;
+    }
+    .novedades-img {
+    margin: 0px 0px 0 60px;
+    }
+    .novedades-img .novedades-img--details span{
+        font-size: 15px;
+        margin-right: 91px;
+    }
+
+    /*RUBORES*/
+    .rubores h2{
+        font-size: 20px;
+    }
+  .rubores .rubores-firstBlock {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 49px 11px;
+
+    }
+    .rubores-firstBlock--details{
+        margin-bottom: 90px;
+        margin-left: 45px;
+    }
+.rubores-firstBlock--details img {
+    width: 140px;
+    height: 130px;
+    }
+    .rubores-firstBlock--details span{
+        font-size: 14px;
+    }
+    .rubores-firstBlock--details a{
+        font-size: 17px;
+        width: 90px;
+        padding: 5px;
+        margin: 5px 0px 0px 26px;
+    }
+    .rubores-firstBlock--details a img{
+        width: 40px;
+    height: 29px;
+    margin-right: 14px;
+    }
+
+    /*DELINEADORES*/
+
+    .delineadores h2{
+        font-size: 20px;
+    }
+  .delineadores .delineadores-firstBlock {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 49px 11px;
+
+    }
+    .delineadores-firstBlock--details{
+        margin-bottom: 90px;
+        margin-left: 45px;
+    }
+.delineadores-firstBlock--details img {
+    width: 140px;
+    height: 130px;
+    }
+    .delineadores-firstBlock--details span{
+        font-size: 14px;
+    }
+    .delineadores-firstBlock--details a{
+        font-size: 17px;
+        width: 90px;
+        padding: 5px;
+        margin: 5px 0px 0px 26px;
+    }
+    .delineadores-firstBlock--details a img{
+        width: 40px;
+    height: 29px;
+    margin-right: 14px;
+    }
+}

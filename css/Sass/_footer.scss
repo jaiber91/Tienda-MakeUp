@@ -32,3 +32,25 @@
     }
 }
 
+@media screen and (max-width: 1024px) {
+
+    .footer .footer-col1 ul li{
+        font-size: 14px;
+    }
+    .footer .footer-col2 ul li{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 768px) {
+
+    .footer {
+        width: 132%;
+      }
+}
+@media screen and (max-width: 480px) {
+      
+    .footer {
+        width: 99%;
+      }
+
+}
