@@ -5,10 +5,11 @@
     align-items: center;
     background-color:$principalColor;
     height: 125px; ;
-    width: $widht; ;
+    /*width: $widht;*/
+    min-height: 8vh;
 }
 .navegation-logo img{
-    height: 128px;
+    height: 125px;
     margin-left: 50px;
 }
 .navegation ul{
@@ -31,4 +32,88 @@
 }
 .navegation-car img{
 margin-right: 37px;
+}
+.btnMenu{
+  margin-right: 30px;
+  font-size: 25px;
+  cursor: pointer;
+  background-color:transparent;
+  display: none;
+}
+
+
+
+
+@media screen and (max-width: 1024px) {
+    .navegation {
+        width: 101%;
+      }
+      .navegation-logo {
+        
+        width: 12px;
+      }
+      .navegation-logo img {
+        height: 100px;
+      }
+      .navegation ul {
+        margin-left: 190px;
+      }
+      .navegation ul li {
+        margin-left: 15px;
+      }
+      .navegation ul li a {
+        font-size: 17px;
+      }
+      .navegation-car {
+        margin-right: 45px;
+        height: 42px;
+        display: none;
+      }
+      .navegation-car img{
+          height: 50px;
+      }
+}
+
+@media screen and (max-width: 768px) {
+
+    .navegation {
+        width: 137%;
+      }
+      .navegation-logo{
+        width: 12px;
+      }
+      .navegation .navegation-car {
+        width: 48px;
+        margin-right: 73px;
+      }
+      .navegation ul{
+          margin-left: 296px;
+      }
+}
+
+@media screen and (max-width: 480px) {
+    .navegation {
+        width: 100%;
+      }
+    .btnMenu{
+      display: block;
+      position: absolute;
+      margin-left: 87%;
+    }
+    .navegation ul{
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      height: 90px
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .navegation {
+        width: 101%;
+      }
+      .navegation ul {
+          margin-left: 0;
+      }
+ 
 }
