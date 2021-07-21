@@ -8,7 +8,7 @@
         display: grid;
         grid-template-columns: auto auto auto auto;
         margin: 0 50px 0 50px;
-        grid-gap: 50px 134px
+        grid-gap: 50px 37px
     }
     
     
@@ -34,10 +34,10 @@
 .rubores-firstBlock--details img {
     width: $cardWidth;
     height: $cardHeight;
+    
 }
 .rubores-firstBlock--details span{
-    display: flex;
-    justify-content: center;
+    text-align: center;
     font-size: $eighteen;
 }
 .rubores-firstBlock--details a{
@@ -57,7 +57,11 @@
 .rubores-firstBlock--details a img{
     width: 30px;
     height: 24px;
-    margin-right: $twentySize
+    margin-right: $twentySize;
+   
+}
+.rubores-firstBlock--details--img{
+    background-color: #962671;
 }
 .rubores-second{
     margin-top: $onehundredSize;

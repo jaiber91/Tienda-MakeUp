@@ -1,119 +1,105 @@
 @import "variables";
-.navegation{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color:$principalColor;
-    height: 125px; ;
-    /*width: $widht;*/
-    min-height: 8vh;
+.navigation{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  min-height: 8vh;
+  background-color: #962671;
 }
-.navegation-logo img{
-    height: 125px;
-    margin-left: 50px;
+.navigation-logo{
+  height: 125px;
+  margin-left: 50px;
 }
-.navegation ul{
-    display: flex;
-    margin-left: 10%;
-}
-.navegation ul li{
-    list-style: none;
-    text-decoration: none;
-    margin-left: 25px;
-        
-}
-
-.navegation ul li a{
-   text-decoration: none;
-   font-family: $fonts;
-   color: $colorText1;
-   font-size: $fontSize;
-   
-}
-.navegation-car img{
-margin-right: 37px;
-}
-.btnMenu{
-  margin-right: 30px;
-  font-size: 25px;
-  cursor: pointer;
-  background-color:transparent;
+.navigation-hamburger{
   display: none;
+  cursor: pointer;
+  border: none;
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
 }
+.navigation-hamburger span{
+  display: block;
+  background-color: #ffffff;
+  height: 3px;
+  width: 28px;
+  margin: 10px auto;
+  border-radius: 2px;
+}
+.navigation-links{
+  display: flex;
+  padding: 0;
 
+}
+.navigation-links li{
+  padding: 0 40px;
+  list-style-type: none;
+  transition: 0.3s;
+}
+.navigation-links li a{
+  text-decoration: none;
+  font-size: 1.8rem;
+  color: #ffffff;
+  font-weight: 300;
 
-
-
+}
+.navigation-links li:hover{
+  background-color: #680f4b
+}
 @media screen and (max-width: 1024px) {
-    .navegation {
-        width: 101%;
-      }
-      .navegation-logo {
-        
-        width: 12px;
-      }
-      .navegation-logo img {
-        height: 100px;
-      }
-      .navegation ul {
-        margin-left: 190px;
-      }
-      .navegation ul li {
-        margin-left: 15px;
-      }
-      .navegation ul li a {
-        font-size: 17px;
-      }
-      .navegation-car {
-        margin-right: 45px;
-        height: 42px;
-        display: none;
-      }
-      .navegation-car img{
-          height: 50px;
-      }
+  .navigation-logo{
+    margin-left: 11%;
+  }
+  .navigation-links li{
+    padding: 0 26px;
+  }
+  .navigation-links a{
+    font-size: 1.3rem;
+  }
 }
-
 @media screen and (max-width: 768px) {
-
-    .navegation {
-        width: 137%;
-      }
-      .navegation-logo{
-        width: 12px;
-      }
-      .navegation .navegation-car {
-        width: 48px;
-        margin-right: 73px;
-      }
-      .navegation ul{
-          margin-left: 296px;
-      }
-}
-
-@media screen and (max-width: 480px) {
-    .navegation {
-        width: 100%;
-      }
-    .btnMenu{
-      display: block;
-      position: absolute;
-      margin-left: 87%;
-    }
-    .navegation ul{
-      flex-direction: column;
-      justify-content: space-around;
-      align-items: center;
-      height: 90px
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .navegation {
-        width: 101%;
-      }
-      .navegation ul {
-          margin-left: 0;
-      }
  
+  .navigation-logo{
+    padding-left: 25px;
+  }
+  .navigation-hamburger{
+    display: block;
+    position: absolute;
+    top: 15px;
+    right: 25px;
+  }
+  .navigation{
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 25px 0;
+   
+  }
+  .navigation-links{
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 92vh;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: none;
+  }
+  .navigation-links li{
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+
+  }
+  .navigation-links.active{
+    display: flex;
+  }
+.navigation-hamburger-1.animado{
+  transform: rotate(-45deg) translate(-10px, 8px);
+}
+.navigation-hamburger-2.animado{
+  opacity: 0;
+}
+.navigation-hamburger-3.animado{
+  transform: rotate(45deg) translate(-10px, -8px);
+}
 }

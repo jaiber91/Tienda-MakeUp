@@ -11,66 +11,74 @@
       href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
       rel="stylesheet"
     />
-    
   </head>
   <body>
-    <nav class="navegation">
-    
-        <div class="navegation-logo">
-            <a href="/index.html"><img src="/assets/icons/logo.png"  alt="logo"></a>
-            
-        </div>
-     
-      <ul>
+    <header>
+      <nav class="navigation">
+        <a href="/index.html"
+        ><img class="navigation-logo" src="/assets/icons/logo.png" alt="logo"
+      /></a>
+      <ul class="navigation-links">
         <li><a href="/src/rubores.html">Rubores</a></li>
         <li><a href="/src/delineadores.html">Delineadores</a></li>
         <li><a href="/src/sombras.html">Sombras</a></li>
         <li><a href="/src/labiales.html">Labiales</a></li>
         <li><a href="/src/esmaltes.html">Esmaltes</a></li>
       </ul>
+      <button class="navigation-hamburger" type="button">
+        <span class="navigation-hamburger-1"></span>
+        <span class="navigation-hamburger-2"></span>
+        <span class="navigation-hamburger-3"></span>
+      </button>
+      </nav>
+     </header>
+    <main class="container">
+      <section class="carrousel">
+        <ul>
+          <li><img src="/assets/images/carrosuel1.png" alt="imagen cosmetico"></li>
+          <li><img src="/assets/images/carrousel2.jpg" alt="imagen cosmetico"></li>
+          <li><img src="/assets/images/carrousel3.jpg" alt="imagen cosmetico"></li>
+          <li><img src="/assets/images/carrousel4.jpg" alt="imagen cosmetico"></li>
+        </ul>
+        <!--<div class="carrousel-img">
+          <img src="/assets/images/carrosuel1.png" alt="" />
+        </div>-->
 
-      <img
-        class="navegation-car"
-        src="/assets/icons/car.png"
-        alt="carrito de compra"
-      />
-      <img class="btnMenu" src="/assets/icons/menu.png" alt="menu de navegación">
-    </nav>
-    <section class="carrousel">
-      <div class="carrousel-img">
-        <img src="/assets/images/carrosuel1.png" alt="" />
-      </div>
-    </section>
-    <section class="masVendido">
-      <h2>Lo mas vendido</h2>
-      <div class="masVendido-img">
-        <div class="masVendido-img--details">
-          <img src="/assets/images/lipstick.jpg" alt="labial" />
-          <span>Labial</span>
+      </section>
+      <section class="masVendido">
+        <h2>Lo mas vendido</h2>
+        
+        
+        <div class="masVendido-img">
+          <div class="masVendido-img--details evento"></div>
+           
         </div>
-        <div class="masVendido-img--details">
-          <img src="/assets/images/prebase.jpg" alt="prebase" />
-          <span>Pre base</span>
-        </div>
-        <div class="masVendido-img--details">
-          <img src="/assets/images/lapizLabio.jpg" alt="labial" />
-          <span>Labial</span>
-        </div>
-        <div class="masVendido-img--details">
-          <img src="/assets//images/polvo.jpg" alt="polvo" />
-          <span>Polvo facial</span>
-        </div>
-        <div class="masVendido-img--details">
-          <img src="/assets/images/labial1.jpg" alt="labial" />
-          <span>Labial</span>
+      </section>
+      <section class="novedades">
+        <h2>Novedades</h2>
+        <div class="novedades-img"></div>
+      </section>
+      <div class="modal">
+        <div class="modal-details modal-details-close">
+          <img src="/assets/icons/close.png" class="close"/>
+          <h2>Nombre del prducto</h2>
+          <hr />
+          <div class="modal-details--info">
+            <img src="/assets/images/lipstick.jpg" alt="imagen producto" />
+            <span>$100</span>
+            <h3>Descripción</h3>
+            <p >
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
+              expedita soluta, nesciunt adipisci quibusdam, laudantium, ipsa velit
+              qui dolor quia alias ullam voluptatibus. Ipsam in, qui debitis magni
+              atque repellat! 
+            </p>
+          </div>
+          <a href=""><img src="/assets/icons/car.png" alt="carro">Añadir</a>
         </div>
       </div>
-    </section>
-    <section class="novedades">
-      <h2>Novedades</h2>
-      <div class="novedades-img"></div>
-    </section>
-
+      
+    </main>
     <footer class="footer">
       <div class="footer-col1">
         <ul>
@@ -98,6 +106,7 @@
         /></a>
       </div>
     </footer>
+    
     <script src="./src/js/app.js"></script>
   </body>
 </html>
