@@ -1,4 +1,7 @@
 document.addEventListener("DOMContentLoaded",datosSombras )
+const menuHamburger = document.querySelector(".navigation")
+const menuLinks = document.querySelector(".navigation-links")
+const menuBarras = document.querySelectorAll(".navigation span")
 
 
 
@@ -9,9 +12,6 @@ function datosSombras() {
         .then(resultado =>  verHTML(resultado))
 }
 
-
-
-
 function verHTML(datos) {
    const contenido = document.querySelector(" .labiales-firstBlock"); 
    let html = "";
@@ -19,8 +19,8 @@ function verHTML(datos) {
         const {image_link , name, price} = producto;
         html += `
                    
-            <div class="sombras-firstBlock--details">
-                <img src="${image_link}" alt="rubor">
+            <div class="labiales-firstBlock--details">
+                <img src="${image_link}" alt="labial" class="labiales-firstBlock--details--img">
                 <span> ${name}</span>
                 <span > <strong> $${price}</strong> </span>
                 <a href=""><img src="/assets/icons/car.png" alt="carro">Añadir</a>
@@ -30,5 +30,13 @@ function verHTML(datos) {
         `
     });
     contenido.innerHTML=html           
-}            
-      
+}
+
+/*CODIGO MENÚ HAMBURGUESA */
+menuHamburger.addEventListener("click", activeMenu)
+function activeMenu() {
+    menuLinks.classList.toggle("active")
+    menuBarras.forEach(child =>{
+        child.classList.toggle("animado")
+    })
+}
