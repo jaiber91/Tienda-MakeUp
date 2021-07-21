@@ -1,2 +1,2 @@
 # Tienda-MakeUp
-#Proyecto en construcción
+## Proyecto en construcción
